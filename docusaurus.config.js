@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cross Finance',
-  tagline: 'The Future of Payments Today',
+  title: '0xskyking',
+  tagline: 'Cross Finance Testnet Validator',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://crossfinance.qavurdagli.com',
+  url: 'https://crossfinance.0xskyking.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'qavurdagli', // Usually your GitHub org/user name.
-  projectName: 'crossfi-qavurdagli', // Usually your repo name.
+  organizationName: '0xskyking', // Usually your GitHub org/user name.
+  projectName: 'crossfi-service', // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/qavurdagli/crossfi-qavurdagli/tree/master/',
+            'https://github.com/0xskyking/crossfi-qavurdagli/tree/master/',
         },
         blog: false,
         theme: {
@@ -151,11 +151,14 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} QavurDagli 🐆`,
+        copyright: `Copyright © ${new Date().getFullYear()} 0xskyking`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: 'dark'
       },
     }),
 };

@@ -4,49 +4,19 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'CrossFi Chain',
-    Svg: require('@site/static/img/chain.svg').default,
-    description: (
-      <>
-        CrossFi Chaim is the core of the Cross Finance ecosystem with <code>unlimited scalability.</code>
-      </>
-    ),
+    Svg: require('@site/static/img/chain.svg').default
   },
   {
-    title: 'CrossFi APP',
-    Svg: require('@site/static/img/app.svg').default,
-    description: (
-      <>
-        <code>Online Web 3 banking</code> combines fiat and cryptocurrency transactions.
-      </>
-    ),
+    Svg: require('@site/static/img/app.svg').default
   },
   {
-    title: 'CrossFi xAPP',
-    Svg: require('@site/static/img/xapp.svg').default,
-    description: (
-      <>
-        A a <code>multi-purpose DeFi</code> application for the CrossFi ecosystem.
-      </>
-    ),
+    Svg: require('@site/static/img/xapp.svg').default
   },
   {
-    title: 'CrossFi Business',
-    Svg: require('@site/static/img/business.svg').default,
-    description: (
-      <>
-        CrossFi business is a <code>payment system</code> that allows companies to accept crypto payments online and offline.
-      </>
-    ),
+    Svg: require('@site/static/img/business.svg').default
   },
   {
-    title: 'CrossFi Foundation',
-    Svg: require('@site/static/img/foundation.svg').default,
-    description: (
-      <>
-        A <code>non-profit self-regulating organization</code>, whose main goal is the development and scaling of the Cross Finance ecosystem.
-      </>
-    ),
+    Svg: require('@site/static/img/foundation.svg').default
   },
 ];
 

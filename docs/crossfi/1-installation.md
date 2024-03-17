@@ -1,8 +1,8 @@
 ---
-title: Getting Started
+title: Installation
 description: Node installation guide.
 sidebar_position: 2
-slug: /validator/getting-started
+slug: /validator/installation
 ---
 
 # Installation
@@ -76,9 +76,9 @@ crossfid config chain-id $CFI_CHAIN_ID
 crossfid init --chain-id $CFI_CHAIN_ID $CFI_NODENAME
 
 # Copying the Genesis and addrbook Files
-wget https://github.com/AnatolianTeam/Anatolian-Team-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/genesis.json -O $HOME/.mineplex-chain/config/genesis.json
-wget https://github.com/AnatolianTeam/Anatolian-Team-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/addrbook.json -O $HOME/.mineplex-chain/config/addrbook.json
-
+wget https://github.com/0xskyking/crossfi-service/raw/main/docs/crossfi/files/genesis.json -O $HOME/.mineplex-chain/config/genesis.json
+wget https://github.com/0xskyking/crossfi-service/raw/main/docs/crossfi/files/addrbook.json -O $HOME/.mineplex-chain/config/addrbook.json
+addrbook.json
 # Set up the minimum gas price
 sed -i -e 's|^minimum-gas-prices *=.*|minimum-gas-prices = "5000000000mpx"|' $HOME/.mineplex-chain/config/app.toml
 

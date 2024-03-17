@@ -11,7 +11,15 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className="container text--center" style={{justifyContent: 'space-between' }}>
+      <div className='text--center'>
+                <img
+                  className={styles.featureImage}
+                  src='img/0xskyking.png'
+                  alt='0xskyking'
+                  style={{ width: '25%', height: 'auto' }}
+                />
+              </div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -20,7 +28,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            CrossFi Tutorial
+            Services
           </Link>
         </div>
       </div>
@@ -32,8 +40,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="0xskyking | Cross Finance">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
